@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "global-require": 0,
+    "no-underscore-dangle": 0,
+    "comma-dangle": 0,
+    "no-console": 0,
+    "max-len": "off",
+    "arrow-body-style": [2, "always"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "globals": {
+    "__DEV__": true,
+    "ISOMORPHIC_WEBPACK": true
+  }
+}

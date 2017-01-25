@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  overflow: hidden;
+}
+
+.AppTopContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 48px;
+}
+
+.AppMainContainer {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  bottom: 42px;
+}
+
+.AppBottomContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 42px;
+}
